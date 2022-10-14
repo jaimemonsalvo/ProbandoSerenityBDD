@@ -11,8 +11,8 @@ repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+//sourceCompatibility = 1.8
+//targetCompatibility = 1.8
 
 ext {
     slf4jVersion = '1.7.7'
@@ -23,7 +23,7 @@ ext {
 }
 
 dependencies {
-    testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+    implementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
                 "net.serenity-bdd:serenity-junit5:${serenityCoreVersion}",
                 "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
                 "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
