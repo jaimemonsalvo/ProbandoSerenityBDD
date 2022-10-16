@@ -11,13 +11,13 @@ repositories {
     mavenCentral()
 }
 
-//sourceCompatibility = 1.8
-//targetCompatibility = 1.8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 ext {
     slf4jVersion = '1.7.7'
     serenityCoreVersion = '3.3.4'
-    junitVersion = '5.8.2'
+    junitVersion = '5.7.2'
     assertJVersion = '3.22.0'
     logbackVersion = '1.2.10'
 }
